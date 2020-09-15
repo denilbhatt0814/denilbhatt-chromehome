@@ -1,7 +1,7 @@
 var getDate = () => {
     var dateTime = new Date();
     var date = dateTime.getDate();
-    var month = dateTime.getMonth();
+    var month = dateTime.getMonth() + 1;
     var year = dateTime.getFullYear();
  	
  	date = (date < 10)? "0" + date : date;
